@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 1%;
+}
+header{
+    text-align: center;
+    background-color: #ffd745;
+    margin:-8px;
+    padding: 10px;
+}
+
+html{
+    background-color:#b1b3de ;
+}
+
+.ryad{
+    
+    text-align: center;
+
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+/* Рамка */
+    background-color: #ffd745;
+    border-radius: auto;
+    -moz-border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    border: 0px solid #000000;
+    margin: 28px;
+    padding: 10px;
+/* Это тень!!! */
+    -webkit-box-shadow: -4px 6px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: -4px 6px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: -4px 6px 5px 0px rgba(0,0,0,0.4);
+
+}
+nav{
+top: 0 auto;
+}
+
+ul{
+text-align: center;
+}
+
+.opis{
+    text-align: center;
+}
+li{
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    
+    /* Рамочка :) */
+    background-color: #ffd745;
+    
+    -moz-border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    border: 0px solid #000000;
+    margin: 10px;
+    padding: 10px;
+    /* Размер шрифта */
+    font-size:25px;
+/* Это тень!!! */
+    -webkit-box-shadow: -4px 6px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: -4px 6px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: -4px 6px 5px 0px rgba(0,0,0,0.4);
+}
+
+li:hover{
+    background-color: #fdeeb4;
+}
+
+li:active{
+    background-color: #fdeeb4;
+}
+
+
+.seria{
+    text-align: center;
+    max-width: 300px;
+    vertical-align:top ;
+     
+    /* Рамочка :) */
+    background-color: #ffd745;
+    border-radius: auto;
+    -moz-border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    border: 0px solid #000000;
+    margin: 90px;
+    padding: 10px;
+    height: 445px;
+    /* Это тень!!! */
+    -webkit-box-shadow: -4px 6px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: -4px 6px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: -4px 6px 5px 0px rgba(0,0,0,0.4);
+
+    display: inline-block;
+}
+
+.merch{
+    text-align: center;
+    vertical-align:top ;
+    /* Рамочка :) */
+    background-color: #ffd745;
+    border-radius: auto;
+    -moz-border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    border: 0px solid #000000;
+    margin: 90px;
+    padding: 10px;
+    height: 350px;
+    /* Это тень!!! */
+    -webkit-box-shadow: -4px 6px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: -4px 6px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: -4px 6px 5px 0px rgba(0,0,0,0.4);
+
+    display: inline-block;
+}
+
+a{
+    font-family:"Comfortaa1";
+    text-decoration:none ;
+    color: black;
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+h2{
+    font-family:"Comfortaa1";
+    font-size: 40px;
+    text-align: center;
+}
+
+h3{
+    font-family:"Comfortaa2";    
+}
+
+footer{
+    text-align: center;
+ color: #0000007e;
+}
+
+@font-face {
+    font-family:"Comfortaa1";
+    src: url(fonts/Comfortaa-Bold.ttf) format("truetype");
+}
+@font-face {
+    font-family:"Comfortaa2";
+    src: url(fonts/Comfortaa-Regular.ttf) format("truetype");
+}
